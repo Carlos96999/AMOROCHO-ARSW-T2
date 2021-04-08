@@ -9,6 +9,10 @@ PAra ejecutar el programa de formal local, se ingresa a la carpeta del proyecto 
  mvn spring-boot:run
 `  
 http://localhost:8080/  
+
+## Extensión  
+El programa tiene implementaciones de las clases, las cuales son extendidas por medio de interfaces, en dado caso que se desee extender para nuevos funcionamientos.  
+Si desea agregar un nuevo servicio externo, solo debe agregarlo en la interfaz e implementarlo en la clase IExternalApiImpl (IExternalApi es la interfaz).
 ## Preparación para el Parcial
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
