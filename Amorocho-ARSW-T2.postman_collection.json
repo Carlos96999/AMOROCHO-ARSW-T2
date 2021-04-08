@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "cbf65e0b-5b07-4989-8d9a-7fc4b0c1e368",
+		"name": "Amorocho-ARSW-T2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET /clima/ciudad/guapota",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://amorocho-arsw-t2.herokuapp.com/clima/ciudad/guapota",
+					"protocol": "https",
+					"host": [
+						"amorocho-arsw-t2",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"clima",
+						"ciudad",
+						"guapota"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /clima/ciudad/Socorro,CO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://amorocho-arsw-t2.herokuapp.com/clima/ciudad/Socorro,CO",
+					"protocol": "https",
+					"host": [
+						"amorocho-arsw-t2",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"clima",
+						"ciudad",
+						"Socorro,CO"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
