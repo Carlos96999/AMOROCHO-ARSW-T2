@@ -56,42 +56,12 @@ var app = (() => {
         //para pintar con el marcador
         //plotMarkers(data.coordenadas);*/
     }
-	
-    function consultarCiudad(name){
-        apiClient.getCities(name, mapData);
-    }
 
     return {
-        consultarCiudad:consultarCiudad,
+		
+        consultarCiudad: function(name){
+			apiClient.getCities(name, mapData);
+		}
     }
 
 })();
-
-/*let app = (() => {
-	
-
-    var buscar = function (data) {
-        $("#lblname").text("City: "+data.name);
-        console.info(data);
-        document.getElementById("datos").textContent = "City: "+data.name+
-        "\r\nId: "+data.id+
-        "\r\nVisibility: "+data.visibility+
-        "\r\nTimezone: "+data.timezone+
-        "\r\nHumidity: "+data.main.humidity+
-        "\r\nTemperatura Maxima: "+data.main.temp+
-        "\r\nTemperatura Minima: "+data.main.temp_min+
-        "\r\nCountry: "+data.sys.country+
-        "\r\nLongitud: "+data.coord.lon+
-        "\r\nLatitud: "+data.coord.lat
-        ;
-    }
-
-	function consultarCiudad(nombre){
-        apiClient.getCities(nombre);
-    }
-
-    return {
-		consultarCiudad: consultarCiudad
-    }
-
-})();*/
