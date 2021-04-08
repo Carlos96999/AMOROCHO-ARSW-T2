@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import edu.escuelaing.co.AMOROCHOARSWT2.cache.IWeatherCache;
 
+@Service
 public class IWeatherCacheImpl implements IWeatherCache 
 {
 	HashMap<String, JSONObject> cache = new HashMap<String, JSONObject>();

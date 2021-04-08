@@ -8,6 +8,7 @@ import edu.escuelaing.co.AMOROCHOARSWT2.apiExternal.impl.IExternalApiImpl;
 import edu.escuelaing.co.AMOROCHOARSWT2.cache.impl.IWeatherCacheImpl;
 import edu.escuelaing.co.AMOROCHOARSWT2.service.IWeatherServices;
 
+@Service
 public class IWeatherServicesImpl implements IWeatherServices 
 {	
 	@Autowired

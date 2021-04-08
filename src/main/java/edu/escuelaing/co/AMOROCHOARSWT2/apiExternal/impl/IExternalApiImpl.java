@@ -7,6 +7,7 @@ import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import edu.escuelaing.co.AMOROCHOARSWT2.apiExternal.IExternalApi;
 
+@Service
 public class IExternalApiImpl implements IExternalApi 
 {
 	@Override
