@@ -1,5 +1,14 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
+## Enlace heroku  
+https://amorocho-arsw-t2.herokuapp.com/  
+
+## Guia  
+PAra ejecutar el programa de formal local, se ingresa a la carpeta del proyecto y se ejecuta el siguiente comando:
+`
+ mvn spring-boot:run
+`  
+http://localhost:8080/  
 ## Preparación para el Parcial
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
